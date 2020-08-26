@@ -96,12 +96,6 @@
     <Compile Include="MentalArithmetic\MentalArithmetic.designer.cs">
       <DependentUpon>MentalArithmetic.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test\frm_email.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test\frm_email.Designer.cs">
-      <DependentUpon>frm_email.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,9 +112,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MentalArithmetic\MentalArithmetic.resx">
       <DependentUpon>MentalArithmetic.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Test\frm_email.resx">
-      <DependentUpon>frm_email.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>

@@ -78,6 +78,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FingerGuessingGame\FingerGuessingGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FingerGuessingGame\FingerGuessingGame.designer.cs">
+      <DependentUpon>FingerGuessingGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTool.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FingerGuessingGame\FingerGuessingGame.resx">
+      <DependentUpon>FingerGuessingGame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTool.resx">
       <DependentUpon>FormTool.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +171,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="FingerGuessingGame\Screenshot.jpg" />
     <Content Include="ListViewControl\Screenshot.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

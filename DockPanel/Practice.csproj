@@ -96,6 +96,18 @@
     <Compile Include="ListViewControl\ListViewControl.Designer.cs">
       <DependentUpon>ListViewControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="MatchingGame\MatchingGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchingGame\MatchingGame.designer.cs">
+      <DependentUpon>MatchingGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchingGame\Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchingGame\Option.designer.cs">
+      <DependentUpon>Option.cs</DependentUpon>
+    </Compile>
     <Compile Include="MentalArithmetic\MentalArithmetic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +130,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListViewControl\ListViewControl.resx">
       <DependentUpon>ListViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatchingGame\MatchingGame.resx">
+      <DependentUpon>MatchingGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatchingGame\Option.resx">
+      <DependentUpon>Option.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MentalArithmetic\MentalArithmetic.resx">
       <DependentUpon>MentalArithmetic.cs</DependentUpon>
@@ -173,6 +191,17 @@
   <ItemGroup>
     <Content Include="FingerGuessingGame\Screenshot.jpg" />
     <Content Include="ListViewControl\Screenshot.jpg" />
+    <Content Include="MatchingGame\Resources\圖片來源宣告.txt" />
+    <Content Include="MatchingGame\Resources\奇異果.png" />
+    <Content Include="MatchingGame\Resources\柳橙.png" />
+    <Content Include="MatchingGame\Resources\橘子.png" />
+    <Content Include="MatchingGame\Resources\水蜜桃.png" />
+    <Content Include="MatchingGame\Resources\背面.png" />
+    <Content Include="MatchingGame\Resources\芭樂.png" />
+    <Content Include="MatchingGame\Resources\葡萄.png" />
+    <Content Include="MatchingGame\Resources\蘋果.png" />
+    <Content Include="MatchingGame\Resources\西瓜.png" />
+    <Content Include="MatchingGame\Screenshot.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

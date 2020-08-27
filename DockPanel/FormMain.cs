@@ -52,6 +52,7 @@ namespace Practice
             dicWinformBase.Add("心算訓練", "Practice.MentalArithmetic");
             dicWinformBase.Add("ListViewControl", "Practice.ListViewControl");
             dicWinformBase.Add("猜拳遊戲", "Practice.FingerGuessingGame");
+            dicWinformBase.Add("翻牌記憶遊戲", "Practice.MatchingGame");
 
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }

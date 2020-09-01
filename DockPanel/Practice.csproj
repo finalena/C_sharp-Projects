@@ -108,6 +108,11 @@
     <Compile Include="MatchingGame\Option.designer.cs">
       <DependentUpon>Option.cs</DependentUpon>
     </Compile>
+    <Compile Include="MatchingGame\Resource_MatchingGame.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_MatchingGame.resx</DependentUpon>
+    </Compile>
     <Compile Include="MentalArithmetic\MentalArithmetic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +127,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SlotMachine\Resource_SlotMachine.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_SlotMachine.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SlotMachine\SlotMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlotMachine\SlotMachine.designer.cs">
+      <DependentUpon>SlotMachine.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FingerGuessingGame\FingerGuessingGame.resx">
       <DependentUpon>FingerGuessingGame.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,22 +158,27 @@
     <EmbeddedResource Include="MatchingGame\Option.resx">
       <DependentUpon>Option.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MatchingGame\Resource_MatchingGame.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_MatchingGame.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="MentalArithmetic\MentalArithmetic.resx">
       <DependentUpon>MentalArithmetic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
+    <EmbeddedResource Include="Properties\Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="SlotMachine\Resource_SlotMachine.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_SlotMachine.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlotMachine\SlotMachine.resx">
+      <DependentUpon>SlotMachine.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -187,21 +213,27 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SlotMachine\Resource_SlotMachine\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="FingerGuessingGame\Screenshot.jpg" />
     <Content Include="ListViewControl\Screenshot.jpg" />
-    <Content Include="MatchingGame\Resources\圖片來源宣告.txt" />
-    <Content Include="MatchingGame\Resources\奇異果.png" />
-    <Content Include="MatchingGame\Resources\柳橙.png" />
-    <Content Include="MatchingGame\Resources\橘子.png" />
-    <Content Include="MatchingGame\Resources\水蜜桃.png" />
-    <Content Include="MatchingGame\Resources\背面.png" />
-    <Content Include="MatchingGame\Resources\芭樂.png" />
-    <Content Include="MatchingGame\Resources\葡萄.png" />
-    <Content Include="MatchingGame\Resources\蘋果.png" />
-    <Content Include="MatchingGame\Resources\西瓜.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\圖片來源宣告.txt" />
+    <Content Include="MatchingGame\Resource_MatchingGame\奇異果.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\柳橙.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\橘子.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\水蜜桃.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\背面.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\芭樂.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\葡萄.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\蘋果.png" />
+    <Content Include="MatchingGame\Resource_MatchingGame\西瓜.png" />
     <Content Include="MatchingGame\Screenshot.jpg" />
+    <None Include="Resources\JailRabbit.png" />
+    <None Include="Resources\one.jpg" />
+    <None Include="Resources\Snoopy.jpg" />
+    <Content Include="SlotMachine\Screenshot.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

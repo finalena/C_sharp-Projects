@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Practice.Properties {
+namespace Practice.MatchingGame {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Practice.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class Resource_MatchingGame {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Resource_MatchingGame() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Practice.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Practice.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Practice.MatchingGame.Resource_MatchingGame", typeof(Resource_MatchingGame).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,22 @@ namespace Practice.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 圖片素材來源：Designed by Freepik
+        ///
+        ///卡牌背景
+        ///http://www.freepik.com/free-vector/watercolor-rounded-mother-s-day-labels_853020.htm
+        ///
+        ///水果
+        ///http://www.freepik.com/free-vector/coloured-happy-fruits_893066.htm
+        ///http://www.freepik.com/free-vector/fruit-halves_777526.htm 的當地語系化字串。
+        /// </summary>
+        internal static string 圖片來源宣告 {
+            get {
+                return ResourceManager.GetString("圖片來源宣告", resourceCulture);
             }
         }
         

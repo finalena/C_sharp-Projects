@@ -1,4 +1,4 @@
-﻿namespace Practice
+﻿namespace Practice.ListViewControl
 {
     partial class ListViewControl
     {

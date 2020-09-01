@@ -1,4 +1,4 @@
-﻿namespace Practice
+﻿namespace Practice.MatchingGame
 {
     partial class MatchingGame
     {
@@ -102,10 +102,10 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Location = new System.Drawing.Point(0, 26);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(694, 635);
-            this.panel1.TabIndex = 8;
+            this.panel1.TabIndex = 9;
             // 
             // MatchingGame
             // 

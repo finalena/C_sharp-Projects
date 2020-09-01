@@ -1,4 +1,4 @@
-﻿namespace Practice
+﻿namespace Practice.FingerGuessingGame
 {
     partial class FingerGuessingGame
     {

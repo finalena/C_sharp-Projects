@@ -1,4 +1,4 @@
-﻿namespace Practice
+﻿namespace Practice.MentalArithmetic
 {
     partial class MentalArithmetic
     {

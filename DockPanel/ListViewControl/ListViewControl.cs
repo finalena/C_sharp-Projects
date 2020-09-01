@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
 
-namespace Practice
+namespace Practice.ListViewControl
 {
     public partial class ListViewControl : DockContent
     {

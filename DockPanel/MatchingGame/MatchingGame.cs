@@ -12,7 +12,7 @@ using System.Collections;
 using System.Reflection;
 using WeifenLuo.WinFormsUI.Docking;
 
-namespace Practice
+namespace Practice.MatchingGame
 {
     /// 翻牌記憶遊戲
     /// 資料來源: 
@@ -93,8 +93,8 @@ namespace Practice
             
             PictureBox pBox = (PictureBox)sender;
             int index = int.Parse(pBox.Tag.ToString());
-           
-            pBox.Image = (Image)Properties.Resources.ResourceManager.GetObject(Cards[index - 1]);
+
+            pBox.Image = (Image)Practice.MatchingGame.Resource_MatchingGame.ResourceManager.GetObject(Cards[index - 1]);
             
             //翻第一張牌
             if (pbFirst == null)
@@ -115,7 +115,7 @@ namespace Practice
                 if (sCompare1 != sCompare2)
                 {
                     System.Threading.Thread.Sleep(Convert.ToInt16(1000 * frmA.numSleep.Value));
-                    pbFirst.Image = Properties.Resources.背面;
+                    pbFirst.Image = Practice.MatchingGame.Resource_MatchingGame.背面;
                     pbSecond.Image = pbFirst.Image;
 
                     pbFirst.Enabled = true; 
@@ -176,7 +176,7 @@ namespace Practice
                     pb[intA * intB].Size = new Size(150, 150);
                     pb[intA * intB].Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
                     pb[intA * intB].SizeMode = PictureBoxSizeMode.CenterImage;
-                    pb[intA * intB].Image = Properties.Resources.背面;
+                    pb[intA * intB].Image = Practice.MatchingGame.Resource_MatchingGame.背面;
                     pb[intA * intB].Cursor = Cursors.Hand;
                     
                     this.panel1.Controls.Add(pb[intA * intB]);             

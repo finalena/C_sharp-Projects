@@ -132,6 +132,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Include="SearchAndHighlightText\SearchAndHighlightText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchAndHighlightText\SearchAndHighlightText.designer.cs">
+      <DependentUpon>SearchAndHighlightText.cs</DependentUpon>
+    </Compile>
     <Compile Include="SlotMachine\Resource_SlotMachine.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -172,8 +178,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SearchAndHighlightText\SearchAndHighlightText.resx">
+      <DependentUpon>SearchAndHighlightText.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SlotMachine\Resource_SlotMachine.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resource_SlotMachine.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SlotMachine\SlotMachine.resx">
@@ -213,9 +223,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SlotMachine\Resource_SlotMachine\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="FingerGuessingGame\Screenshot.jpg" />
     <Content Include="ListViewControl\Screenshot.jpg" />
@@ -230,9 +238,9 @@
     <Content Include="MatchingGame\Resource_MatchingGame\蘋果.png" />
     <Content Include="MatchingGame\Resource_MatchingGame\西瓜.png" />
     <Content Include="MatchingGame\Screenshot.jpg" />
-    <None Include="Resources\JailRabbit.png" />
-    <None Include="Resources\one.jpg" />
-    <None Include="Resources\Snoopy.jpg" />
+    <None Include="SlotMachine\Resource_SlotMachine\JailRabbit.png" />
+    <None Include="SlotMachine\Resource_SlotMachine\one.jpg" />
+    <None Include="SlotMachine\Resource_SlotMachine\Snoopy.jpg" />
     <Content Include="SlotMachine\Screenshot.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

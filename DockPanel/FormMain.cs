@@ -54,7 +54,7 @@ namespace Practice
             dicWinformBase.Add("猜拳遊戲", "Practice.FingerGuessingGame.FingerGuessingGame");
             dicWinformBase.Add("翻牌記憶遊戲", "Practice.MatchingGame.MatchingGame");
             dicWinformBase.Add("SlotMachine", "Practice.SlotMachine.SlotMachine");
-
+            dicWinformBase.Add("SearchAndHighlightText", "Practice.SearchAndHighlightText.SearchAndHighlightText");
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }
         public void ShowContent(DockContent frm)

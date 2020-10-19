@@ -57,6 +57,7 @@ namespace Practice
             dicWinformBase.Add("SearchAndHighlightText", "Practice.SearchAndHighlightText.SearchAndHighlightText");
             dicWinformBase.Add("RestrictCharactersInDataGridView", "Practice.RestrictCharactersInDataGridView.Form1");
             dicWinformBase.Add("計算列印頁數程式練習", "Practice.Practice1.Form1");
+            dicWinformBase.Add("上傳便當費用", "Practice.Practice2.Form1");
 
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }

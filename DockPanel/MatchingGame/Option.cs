@@ -11,7 +11,7 @@ using System.Collections;
 using System.Reflection;
 using WeifenLuo.WinFormsUI.Docking;
 
-namespace Practice
+namespace Practice.MatchingGame
 {
     public partial class Option : DockContent
     {

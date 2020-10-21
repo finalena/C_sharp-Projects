@@ -1,4 +1,4 @@
-﻿namespace Practice
+﻿namespace Practice.MatchingGame
 {
     partial class Option
     {

@@ -90,6 +90,18 @@
     <Compile Include="FormTool.Designer.cs">
       <DependentUpon>FormTool.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTransfer\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransfer\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransfer\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransfer\Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListViewControl\ListViewControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +208,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTool.resx">
       <DependentUpon>FormTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransfer\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransfer\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListViewControl\ListViewControl.resx">
       <DependentUpon>ListViewControl.cs</DependentUpon>
@@ -348,6 +366,7 @@
     <Content Include="SearchAndHighlightText\Screenshot.jpg" />
     <Content Include="SlotMachine\Screenshot.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

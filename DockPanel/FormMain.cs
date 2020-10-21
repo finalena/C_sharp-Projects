@@ -60,6 +60,7 @@ namespace Practice
             dicWinformBase.Add("上傳便當費用", "Practice.Practice2.Form1");
             dicWinformBase.Add("Print_form", "Practice.Print_form.Form1");
             dicWinformBase.Add("TimersTimer", "Practice.TimersTimer.Form1");
+            dicWinformBase.Add("FormTransfer", "Practice.FormTransfer.Form1");
 
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }

@@ -137,6 +137,24 @@
     <Compile Include="Practice2\Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Print_form\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print_form\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print_form\frmPrePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print_form\frmPrePrint.designer.cs">
+      <DependentUpon>frmPrePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print_form\frmPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print_form\frmPrint.designer.cs">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resource.Designer.cs">
@@ -197,6 +215,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Practice2\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print_form\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print_form\frmPrePrint.resx">
+      <DependentUpon>frmPrePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print_form\frmPrint.resx">
+      <DependentUpon>frmPrint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -306,6 +333,7 @@
     <Content Include="MentalArithmetic\Screenshot.jpg" />
     <Content Include="Practice1\Screenshot.jpg" />
     <Content Include="Practice2\Screenshot.jpg" />
+    <Content Include="Print_form\Screenshot.jpg" />
     <Content Include="RestrictCharactersInDataGridView\Screenshot.jpg" />
     <Content Include="SearchAndHighlightText\Screenshot.jpg" />
     <Content Include="SlotMachine\Screenshot.jpg" />

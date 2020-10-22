@@ -61,6 +61,8 @@ namespace Practice
             dicWinformBase.Add("Print_form", "Practice.Print_form.Form1");
             dicWinformBase.Add("TimersTimer", "Practice.TimersTimer.Form1");
             dicWinformBase.Add("FormTransfer", "Practice.FormTransfer.Form1");
+            dicWinformBase.Add("OrderNumberGenerator1", "Practice.OrderNumberGenerator1.Form1");
+            dicWinformBase.Add("OrderNumberGenerator2", "Practice.OrderNumberGenerator2.Form1");
 
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }

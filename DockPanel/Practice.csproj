@@ -60,6 +60,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -136,6 +137,18 @@
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderNumberGenerator1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderNumberGenerator1\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderNumberGenerator2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderNumberGenerator2\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Practice1\Form1.cs">
       <SubType>Form</SubType>
@@ -233,6 +246,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderNumberGenerator1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderNumberGenerator2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Practice1\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -342,6 +361,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FingerGuessingGame\Screenshot.jpg" />
+    <Content Include="FormTransfer\Screenshot.jpg" />
     <Content Include="ListViewControl\Screenshot.jpg" />
     <Content Include="MatchingGame\Resource_MatchingGame\圖片來源宣告.txt" />
     <Content Include="MatchingGame\Resource_MatchingGame\奇異果.png" />
@@ -354,6 +374,12 @@
     <Content Include="MatchingGame\Resource_MatchingGame\蘋果.png" />
     <Content Include="MatchingGame\Resource_MatchingGame\西瓜.png" />
     <Content Include="MatchingGame\Screenshot.jpg" />
+    <Content Include="OrderNumberGenerator1\OrderNumber1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OrderNumberGenerator2\OrderNumber2.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="TimersTimer\Screenshot.jpg" />
     <None Include="SlotMachine\Resource_SlotMachine\JailRabbit.png" />
     <None Include="SlotMachine\Resource_SlotMachine\one.jpg" />

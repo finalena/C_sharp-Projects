@@ -13,11 +13,13 @@ using System.IO;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using WeifenLuo.WinFormsUI.Docking;
+using System.Configuration;
 
 namespace Practice.Practice2
 {
     public partial class Form1 : DockContent
     {
+        private static string DefaultPath = ConfigurationManager.AppSettings["Practice.DefaultPath.Setting"].ToString();
         Dictionary<string, string> Club = new Dictionary<string, string>();
 
         public Form1()
@@ -26,7 +28,7 @@ namespace Practice.Practice2
 
             Club.Add("日文社", "日文週四班");
 
-            this.linkLabel1.Text = @"D:\Users\yhlin\Documents\Visual Studio 2010\Projects\Exercises\C_sharp-Projects\DockPanel\Practice2\TestData\便當費用test.xlsx";
+            this.linkLabel1.Text = DefaultPath + @"Practice2\TestData\便當費用test.xlsx";
             this.txtDate.Mask = TLC.TLMaskDefine.MaskDA;
 
             this.btnBrowse.Click += new EventHandler(Button_Click);
@@ -36,7 +38,7 @@ namespace Practice.Practice2
         
         private void linkLabel1_Click(object sender, EventArgs e)
         {
-            Process.Start(@"D:\Users\yhlin\Documents\Visual Studio 2010\Projects\Exercises\C_sharp-Projects\DockPanel\Practice2\TestData");
+            Process.Start(DefaultPath + @"Practice2\TestData");
         }
 
         private void Button_Click(object sender, EventArgs e)

@@ -77,6 +77,8 @@
             // 
             // cmbZeroSet
             // 
+            this.cmbZeroSet.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
+            this.cmbZeroSet.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.cmbZeroSet.FormattingEnabled = true;
             this.cmbZeroSet.Location = new System.Drawing.Point(144, 99);
             this.cmbZeroSet.Name = "cmbZeroSet";
@@ -112,6 +114,8 @@
             // 
             // cmbFormat
             // 
+            this.cmbFormat.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbFormat.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.cmbFormat.FormattingEnabled = true;
             this.cmbFormat.Location = new System.Drawing.Point(144, 136);
             this.cmbFormat.Name = "cmbFormat";
@@ -147,6 +151,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TabText = "OrderNumberGenerator2";
             this.Text = "OrderNumberGenerator2";
             this.ResumeLayout(false);
             this.PerformLayout();

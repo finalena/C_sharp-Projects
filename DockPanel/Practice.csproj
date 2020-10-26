@@ -377,6 +377,7 @@
     <Content Include="OrderNumberGenerator1\OrderNumber1.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="OrderNumberGenerator1\Screenshot.jpg" />
     <Content Include="OrderNumberGenerator2\OrderNumber2.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

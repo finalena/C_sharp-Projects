@@ -59,6 +59,9 @@
     <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>C:\Program Files (x86)\packages\HtmlAgilityPack.1.4.9.5\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -79,10 +82,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundWorkerTest\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundWorkerTest\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataAnalysis\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DataAnalysis\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DictionaryAndForeach\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DictionaryAndForeach\Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="FingerGuessingGame\FingerGuessingGame.cs">
@@ -108,6 +123,18 @@
     </Compile>
     <Compile Include="FormTransfer\Form2.designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlAgilityPack\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HtmlAgilityPack\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indexer\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indexer\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="ListViewControl\ListViewControl.cs">
       <SubType>Form</SubType>
@@ -174,6 +201,12 @@
     <Compile Include="Practice3\Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Practice4\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice4\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Print_form\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,7 +261,13 @@
     <Compile Include="TimersTimer\Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BackgroundWorkerTest\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataAnalysis\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DictionaryAndForeach\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FingerGuessingGame\FingerGuessingGame.resx">
@@ -242,6 +281,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTransfer\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HtmlAgilityPack\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indexer\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListViewControl\ListViewControl.resx">
       <DependentUpon>ListViewControl.cs</DependentUpon>
@@ -275,6 +320,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Practice3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice4\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Print_form\Form1.resx">
@@ -378,9 +426,13 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BackgroundWorkerTest\Screenshot.jpg" />
     <Content Include="DataAnalysis\Screenshot.jpg" />
+    <Content Include="DictionaryAndForeach\Screenshot.jpg" />
     <Content Include="FingerGuessingGame\Screenshot.jpg" />
     <Content Include="FormTransfer\Screenshot.jpg" />
+    <Content Include="HtmlAgilityPack\Screenshot.jpg" />
+    <Content Include="Indexer\Screenshot.jpg" />
     <Content Include="ListViewControl\Screenshot.jpg" />
     <Content Include="MatchingGame\Resource_MatchingGame\圖片來源宣告.txt" />
     <Content Include="MatchingGame\Resource_MatchingGame\奇異果.png" />
@@ -402,6 +454,7 @@
     </Content>
     <Content Include="OrderNumberGenerator2\Screenshot.jpg" />
     <Content Include="Practice3\Screenshot.jpg" />
+    <Content Include="Practice4\Screenshot.jpg" />
     <Content Include="TimersTimer\Screenshot.jpg" />
     <None Include="SlotMachine\Resource_SlotMachine\JailRabbit.png" />
     <None Include="SlotMachine\Resource_SlotMachine\one.jpg" />

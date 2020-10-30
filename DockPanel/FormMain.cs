@@ -65,6 +65,10 @@ namespace Practice
             dicWinformBase.Add("OrderNumberGenerator2", "Practice.OrderNumberGenerator2.Form1");
             dicWinformBase.Add("DataAnalysis", "Practice.DataAnalysis.Form1");
             dicWinformBase.Add("列出日期區間內, 符合條件的日期", "Practice.Practice3.Form1");
+            dicWinformBase.Add("統計字串出現的次數(Dictionary)", "Practice.Practice4.Form1");
+            dicWinformBase.Add("BackgroundWorker", "Practice.BackgroundWorkerTest.Form1");
+            dicWinformBase.Add("DictionaryAndForeach", "Practice.DictionaryAndForeach.Form1");
+            dicWinformBase.Add("HtmlAgilityPackTest", "Practice.HtmlAgilityPackTest.Form1");
 
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }

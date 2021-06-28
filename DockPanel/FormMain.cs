@@ -48,7 +48,7 @@ namespace Practice
         private void IniToolTitle() 
         {
             Dictionary<string, string> dicWinformBase = new Dictionary<string, string>();
-            dicWinformBase.Add("Email解析", "Practice.frm_email");
+            dicWinformBase.Add("Email解析", "Practice.Test.Form1");
             dicWinformBase.Add("心算訓練", "Practice.MentalArithmetic.MentalArithmetic");
             dicWinformBase.Add("ListViewControl", "Practice.ListViewControl.ListViewControl");
             dicWinformBase.Add("猜拳遊戲", "Practice.FingerGuessingGame.FingerGuessingGame");
@@ -69,6 +69,7 @@ namespace Practice
             dicWinformBase.Add("BackgroundWorker", "Practice.BackgroundWorkerTest.Form1");
             dicWinformBase.Add("DictionaryAndForeach", "Practice.DictionaryAndForeach.Form1");
             dicWinformBase.Add("HtmlAgilityPackTest", "Practice.HtmlAgilityPackTest.Form1");
+            dicWinformBase.Add("ReadAndReplaceBulletListFromWord", "Practice.ReadAndReplaceBulletListFromWord.Form1");
 
             dicTool.Add("WinForm基礎", dicWinformBase); 
         }

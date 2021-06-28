@@ -55,7 +55,7 @@ namespace Practice.Print_form
                     }
                 }
 
-                string[] sArrFloor = listTemp.ToArray();
+                string[] sArrFloor = listTemp.ToArray(); 
                 if (sArrFloor.Length != 0)
                 {
                     for (int intA = 0; intA < sArrFloor.Length; intA++)

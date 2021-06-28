@@ -84,6 +84,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TabText = "TimersTimer";
             this.Text = "TimersTimer";
             this.ResumeLayout(false);
             this.PerformLayout();
